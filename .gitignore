@@ -1,0 +1,33 @@
+# Maven build output
+/target/
+
+# Eclipse or IntelliJ IDEA specific
+*.iml
+.idea/
+.project
+.classpath
+.settings/
+
+# VSCode settings
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Compiled class files
+*.class
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Test reports
+surefire-reports/
+
+# Exclude any generated files accidentally added
+src/main/java/**/*.class
